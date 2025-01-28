@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ta-Te-Ti Multiplayer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 5px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .cell {
+      width: 100px;
+      height: 100px;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      line-height: 100px;
+      border: 2px solid #333;
+      cursor: pointer;
+      user-select: none;
+    }
+    .cell.taken {
+      pointer-events: none;
+      color: #aaa;
+    }
+    #status {
+      margin-top: 20px;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ta-Te-Ti Multiplayer</h1>
+  <div id="status">Esperando jugadores...</div>
+  <div class="board" id="board"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
