@@ -12,6 +12,7 @@ Este es un proyecto básico de **Ta-Te-Ti** (tres en línea) multiplayer desarro
 ---
 
 ## 📂 Estructura del proyecto
+```bash
 tateti-nodejs/
 ├── public/               # Archivos del cliente (HTML, CSS, JS)
 │   ├── index.html        # Página principal
@@ -21,6 +22,7 @@ tateti-nodejs/
 ├── package.json          # Configuración del proyecto y dependencias
 ├── .gitignore            # Archivos y carpetas ignorados por Git
 └── README.md             # Documentación del proyecto
+```
 
 ## 🌟 Funcionalidades principales
 
