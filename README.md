@@ -73,5 +73,6 @@ Este proyecto está licenciado bajo la **MIT License**. Podés usarlo y modifica
 ## ✨ Créditos
 
 Proyecto desarrollado por **Adrian Barabino | BROTE Servicios**.
+Gracias a [Karim Rayhan](https://github.com/karimrayhan) por colaborar en las pruebas.
 
 Si tenés preguntas o sugerencias, ¡no dudes en abrir un [issue](https://github.com/adrianbarabino/tateti-nodejs/issues)!
